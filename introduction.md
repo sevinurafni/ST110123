@@ -31,7 +31,9 @@ Judul program hanya untuk keperluan dokumentasi dan tidak penting bagi alur prog
 
 Inklusi file header dilakukan dengan menggunakan direktif praprosesor. Ini digunakan untuk menyertakan definisi fungsi, deklarasi variabel, atau kode lain yang didefinisikan di file header ke dalam file C++ saat kompilasi. Instruksi-instruksi praprosesor dimulai dengan tanda pagar (#) dan tidak diakhiri dengan titik koma.
 
-    #include <iostream>
+```c++
+#include <iostream>
+```
 
 Dalam kasus di atas, &lt;iostream&gt;
 adalah file header dari C++ yang menyediakan fungsi-fungsi untuk masukan dan keluaran standar.
@@ -42,15 +44,19 @@ Deklarasi adalah bagian untuk mendefinisikan semua nama yang dipakai dalam progr
 tersebut dapat berupa nama tetapan (konstanta), nama variabel, nama tipe, nama prosedur, nama
 fungsi.
 
-    using namespace std;
+```c++
+using namespace std;
+```
 
 ### 1.4. Fungsi Utama
 
 Ini adalah titik awal eksekusi program. Setiap program C++ harus memiliki fungsi main. Di dalam fungsi main, program akan memproses logika utama, memanipulasi data, dan menampilkan hasil.
 
-    int main(){
+```c++
+int main(){
 
-    }
+}
+```
 
 ## 2. Variabel
 
@@ -60,7 +66,7 @@ Variabel adalah suatu lokasi yang diidentifikasi oleh nama dan digunakan untuk m
 
 Sebelum suatu variabel dapat digunakan, perlu dideklarasikan. Deklarasi memberitahu kompiler tentang tipe data dan nama variabel.
 
-```
+```c++
 int angka;
 ```
 
@@ -68,7 +74,7 @@ int angka;
 
 Inisialisasi adalah memberi nilai awal pada variabel pada saat deklarasi.
 
-```
+```c++
 int angka = 10;
 ```
 
@@ -76,7 +82,7 @@ int angka = 10;
 
 Variabel dapat diberi nilai setelah deklarasi.
 
-```
+```c++
 int angka;
 angka = 20;
 ```
@@ -85,7 +91,7 @@ angka = 20;
 
 Variabel dapat digunakan dalam ekspresi matematika atau logika.
 
-```
+```c++
 hasil = angka1 + angka2
 ```
 
@@ -97,7 +103,7 @@ Konstanta dalam C++ adalah nilai yang tetap dan tidak dapat diubah selama ekseku
 
 Konstanta literal adalah nilai konstan yang diberikan secara langsung dalam kode.
 
-```
+```c++
 5, 3.14, 'A', "Hello"
 ```
 
@@ -106,9 +112,36 @@ Konstanta literal adalah nilai konstan yang diberikan secara langsung dalam kode
 Konstanta simbolik adalah nilai konstan yang diberikan nama atau simbol.
 Didefinisikan menggunakan const diikuti dengan tipe data dan nama konstanta.
 
-```
+```c++
 const int JUMLAH_MURID = 30;
 const double PI = 3.14;
+```
+
+## 4. Beberapa fungsi dari &lt;iostream&gt;
+
+### 4.1 cin
+
+Fungsi ini digunakan untuk mengambil masukan dari pengguna.
+
+```c++
+int angka;
+std::cin >> angka;
+```
+
+### 4.2 cout
+
+fungsi yang digunakan untuk menampilkan data ke layar.
+
+```c++
+std::cout << "Algoritma dan Pemrograman" << std::endl;
+```
+
+### 4.3 end
+
+Manipulator ini digunakan untuk memberikan karakter baris baru dan membersihkan buffer.
+
+```c++
+std::cout << "Algoritma dan Pemrograman" << std::endl;
 ```
 
 ## Program Menghitung Luas dan Keliling Lingkaran
@@ -140,3 +173,11 @@ int main() {
 
 Buatkan flowchart, pseudocode, dan program untuk permasalahan berikut, <br>
 Seorang pengguna di warnet mulai mengakses internet pada waktu A1 dan berakhir pada waktu A2. Jika tarif penggunaan internet di warnet tersebut adalah Rp5000,- per jam, program billing warnet dapat dibuat untuk menghitung durasi penggunaan (dalam jam, menit, dan detik) dan biaya total yang harus dibayar oleh pengguna.
+
+## Referensi
+
+https://medium.com/@6unpnp/installing-git-8d4c29799185 <br>
+https://kevinkotze.github.io/github-tut/setup.html <br>
+https://www.w3schools.com/cpp/ <br>
+https://leetcode.com/ <br>
+https://www.slideshare.net/coolsbanget1/algoritma-rinaldi-munir

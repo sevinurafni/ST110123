@@ -1,3 +1,5 @@
+/* Menghitung Luas dan Keliling Lingkaran */
+
 #include <iostream>
 #include <cmath> // Diperlukan untuk menggunakan fungsi pow() dan M_PI
 
