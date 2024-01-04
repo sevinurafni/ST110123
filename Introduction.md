@@ -136,7 +136,7 @@ fungsi yang digunakan untuk menampilkan data ke layar.
 std::cout << "Algoritma dan Pemrograman" << std::endl;
 ```
 
-### 4.3 end
+### 4.3 endl
 
 Manipulator ini digunakan untuk memberikan karakter baris baru dan membersihkan buffer.
 
@@ -180,4 +180,3 @@ https://medium.com/@6unpnp/installing-git-8d4c29799185 <br>
 https://kevinkotze.github.io/github-tut/setup.html <br>
 https://www.w3schools.com/cpp/ <br>
 https://leetcode.com/ <br>
-https://www.slideshare.net/coolsbanget1/algoritma-rinaldi-munir
