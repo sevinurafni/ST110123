@@ -192,4 +192,5 @@ int main() {
 
 http://www.cs.iit.edu/~cs105/lectures/Selection.html <br>
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements <br>
-https://www.youtube.com/watch?v=WtBF_-pLrjE&list=PLZS-MHyEIRo4Ze0bbGB1WKBSNMPzi-eWI
+https://www.youtube.com/watch?v=WtBF_-pLrjE&list=PLZS-MHyEIRo4Ze0bbGB1WKBSNMPzi-eWI <br>
+https://rogerdudler.github.io/git-guide/index.id.html
