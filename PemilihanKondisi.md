@@ -1,3 +1,10 @@
+## STRUKTUR PERCABANGAN (SELECTION)
+
+• Program yang lebih kompleks melibatkan banyak kemungkinan dalam proses penyelesaian masalahnya <br>
+• Kemungkinan solusi harus dianalisis dengan mempertimbangkan kondisi (persyaratan) dan aksi apa yang harus dilakukan jika kondisi tersebut
+dipenuhi <br>
+• Sebuah program dapat memiliki kemampuan untuk pengambilan keputusan dengan menggunakan struktur algoritma percabangan pada program tersebut
+
 ## 1. One-way Case (Tunggal)
 
 Bentuk paling sederhana pilihan tunggal adalah jika hanya ada satu pilihan kondisi yang disediakan. Notasi penulisan pemilihan tunggal adalah
@@ -174,7 +181,6 @@ int main() {
 
     return 0;
 }
-
 ```
 
 ## Tugas
