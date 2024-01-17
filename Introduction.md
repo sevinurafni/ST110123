@@ -1,6 +1,6 @@
 ## 1. Bentuk/Struktur Program C++
 
-Struktur program C mirip dengan kebanyakan program bahasa tingkat tinggi lainnya. Struktur programnya adalah:
+Struktur program C++ mirip dengan kebanyakan program bahasa tingkat tinggi lainnya. Struktur programnya adalah:
 
 - Judul program,
 - Daftar header file
